@@ -8,7 +8,7 @@ whatkey(){
 python3 /home/yourfolder/whatkey.py  $1 
 }
 ```
-After that save the file and  enter this command
+After that save the file and type this command
 ```
 source .bashrc 
 ```
