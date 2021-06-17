@@ -5,7 +5,7 @@ You can simply if you are a linux user add it to the .bashrc file this is my met
 and add this  codes 
 ```
 whatkey(){
-python3 /home/yourfolder/whatkey.py  $1 
+python3 /home/yourfolder/whatkey/whatkey.py  $1 
 }
 ```
 After that save the file and type this command
@@ -17,4 +17,6 @@ You can use it now from the terminal directly
 
 ```
 whatkey 0123456789:AAAAAAAAAAAAAAAAAAAA_BBBBBBBBBBBBgg
+
 ```
+
