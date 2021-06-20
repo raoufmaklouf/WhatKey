@@ -36,7 +36,7 @@ REGEX = {
 "mailchamp_api": "[0-9a-f]{32}-us[0-9]{1,2}",
 "picatic_api": "sk_live_[0-9a-z]{32}",
 "google_oauth_id": "[0-9(+-[0-9A-Za-z_]{32}.apps.googleusercontent.com",
-"google_api": "AIza[0-9A-Za-z-_]{35}",
+"Google Maps api": "AIza[0-9A-Za-z-_]{35}",
 "google_captcha": "^6[0-9a-zA-Z_-]{39}$",
 "google_oauth": "ya29\\.[0-9A-Za-z\\-_]+",
 "amazon_aws_access_key_id": "AKIA[0-9A-Z]{16}",
