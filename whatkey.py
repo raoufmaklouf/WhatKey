@@ -66,4 +66,5 @@ for a,b in REGEX.items():
         
 if s==0:
     print('No result found (-_-)')
-
+else:
+    print('This repository can help you in exploitation:  https://github.com/streaak/keyhacks')
