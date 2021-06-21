@@ -60,11 +60,11 @@ s=0
 for a,b in REGEX.items():
     mutch=re.search(b, str(key))
     if(mutch):
-        print(str(a))
+        print('\033[32m[+]\033[00m '+str(a))
         s=1
         
         
 if s==0:
     print('No result found (-_-)')
 else:
-    print('This repository can help you in exploitation:  https://github.com/streaak/keyhacks')
+    print('\n\033[94m[INFO]\033[00m This repository can help you in exploitation:  https://github.com/streaak/keyhacks')
